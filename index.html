@@ -7,7 +7,9 @@
    <script type="text/javascript" src="tablify.js"></script>
    <script type="text/javascript">
    $(document).ready(function() {
-      $('.content').tablify();
+      $('.content').tablify({
+         mouseover: true
+      });
    });
    </script>
    <style>
@@ -18,16 +20,16 @@
    </style>
 </head>
 <body>
-<div id="container">
-   <div class="content" data-tab-title="First Tab">
-   <strong> tab1</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
+   <div id="container">
+      <div class="content" data-tab-title="First Tab">
+      <strong> tab1</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
+      </div>
+      <div class="content" data-tab-title="Second Tab">
+      <strong>tab2</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
+      </div>
+      <div class="content" data-tab-title="Third Tab">
+      <strong> Tab 3</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
    </div>
-   <div class="content" data-tab-title="Second Tab">
-   <strong>tab2</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
-   </div>
-   <div class="content" data-tab-title="Third Tab">
-   <strong> Tab 3</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
-</div>
 </div>
 </body>
 </html>

@@ -1,3 +1,7 @@
+.tab-container {
+
+}
+
 .tabs {
    overflow: hidden;
    padding: 0px;
@@ -20,6 +24,7 @@
    -moz-border-radius-topright: 3px;
    border-top-left-radius: 3px;
    border-top-right-radius: 3px;
+   cursor: pointer;
 }
 
 .tabs li:first-child {
