@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Tablify</title>
+   <link rel="stylesheet" href="tablify.css">
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.js"></script>
+   <script type="text/javascript" src="tablify.js"></script>
+   <script type="text/javascript">
+   $(document).ready(function() {
+      $('.content').tablify();
+   });
+   </script>
+   <style>
+   #container {
+      width: 600px;
+   }
+
+   </style>
+</head>
+<body>
+<div id="container">
+   <div class="content" data-tab-title="First Tab">
+   <strong> tab1</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
+   </div>
+   <div class="content" data-tab-title="Second Tab">
+   <strong>tab2</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
+   </div>
+   <div class="content" data-tab-title="Third Tab">
+   <strong> Tab 3</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas doloribus optio ipsa modi iure! Quasi assumenda, dicta rerum labore omnis, magnam dolorum totam qui provident facilis! Molestias, pariatur, distinctio.
+</div>
+</div>
+</body>
+</html>
